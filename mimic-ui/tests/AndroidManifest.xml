@@ -1,0 +1,115 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mimic.ui.test"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.mimic.ui.test.UITableViewTestActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Styles"
+            android:label="Styles"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Sections"
+            android:label="Sections"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Accessories"
+            android:label="Accessories"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.TextInputs"
+            android:label="Text Inputs"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Sliders"
+            android:label="Sliders"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Switches"
+            android:label="Switches"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Buttons"
+            android:label="Buttons"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Progress"
+            android:label="Progress"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.Checkboxes"
+            android:label="Checkboxes"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.SingleChoiceList"
+            android:label="Single Choice List"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.mimic.ui.test.MultiChoiceList"
+            android:label="Multi Choice List"
+            android:screenOrientation="portrait" > 
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

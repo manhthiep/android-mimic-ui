@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:duplicateParentState="true"
+    android:gravity="center_vertical"
+    android:background="@color/container_border"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/progressbar"
+        android:layout_gravity="top|center" />
+    
+    <TextView 
+        android:id="@+id/message"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:gravity="center_horizontal"
+        android:textSize="12sp"
+        android:textColor="#ff58575d"
+        android:text="Message"
+        />
+
+</LinearLayout>

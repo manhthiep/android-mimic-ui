@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<!-- LIST BORDER COLOR -->
+	<color name="container_border">#ffd3d7dd</color>
+	<color name="section_border">#ffd3d7dd</color>
+	<color name="item_border">#ffd3d7dd</color>
+
+	<!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+	<color name="base_start_color_default">#FFFFFF</color>
+    <color name="base_end_color_default">#FFFFFF</color>
+    	
+	<!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+	<color name="base_start_color_pressed">#ff3590c4</color>
+    <color name="base_end_color_pressed">#ff2570ba</color>
+    
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <color name="text_color_pressed">#ffffff</color>
+    
+    <!-- ITEM VALUE TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="value_text_color_default">#ff87878c</color>
+    <color name="value_text_color_pressed">#ffffff</color>
+    
+    <!-- ITEM SUBTITLE TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="subtitle_text_color_default">#ff808080</color>
+    <color name="subtitle_text_color_pressed">#ffffff</color>
+    
+    <!-- ITEM BUTTON TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="button_text_color_default">#ff0e6afb</color>
+    <color name="button_text_color_pressed">#ffffff</color>
+    
+    <!-- PROGRESS BAR COLOR -->    
+    <color name="progress_end">#ff79797e</color>
+    <color name="progress_start">#ffd3d7dd</color>
+</resources>
